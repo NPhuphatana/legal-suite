@@ -8,6 +8,9 @@ frontend/dist/
 node_modules/
 frontend/node_modules/
 
+# === Frontend env ===
+frontend/.env
+
 # === Python ===
 __pycache__/
 *.pyc

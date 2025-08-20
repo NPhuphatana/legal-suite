@@ -3,5 +3,15 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo 'No tests'"
+  "name": "legal-suite-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "echo 'start dev server'",
+    "test": "echo 'no tests'"
   }
 }

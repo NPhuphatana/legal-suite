@@ -1,8 +1,4 @@
 {
-  "name": "timeline-frontend",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "echo 'No tests'"
   "name": "legal-suite-frontend",
   "version": "1.0.0",
   "private": true,
@@ -12,6 +8,7 @@
   },
   "scripts": {
     "start": "echo 'start dev server'",
+    "build": "mkdir -p dist && cp index.html dist/index.html",
     "test": "echo 'no tests'"
   }
 }

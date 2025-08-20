@@ -1,4 +1,8 @@
 {
+  "name": "timeline-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo 'No tests'"
   "name": "legal-suite-frontend",
   "version": "1.0.0",
   "private": true,

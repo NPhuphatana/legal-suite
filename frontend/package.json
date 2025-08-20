@@ -1,7 +1,14 @@
 {
   "name": "legal-suite-frontend",
   "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/index.html"
+    "start": "echo 'start dev server'",
+    "build": "mkdir -p dist && cp index.html dist/index.html",
+    "test": "echo 'no tests'"
   }
 }

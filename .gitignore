@@ -1,7 +1,26 @@
+# === Build & packaging artifacts ===
 build/
 legal-suite.tar.gz
 legal-suite.zip
-frontend/node_modules/
 frontend/dist/
+
+# === Node / JavaScript ===
+node_modules/
+frontend/node_modules/
+
+# === Python ===
 __pycache__/
 *.pyc
+embeddings.db
+
+# === Dynamics 365 Business Central (AL) ===
+.vscode/
+.alcache/
+.alpackages/
+.snapshots/
+.output/
+*.app
+rad.json
+*.g.xlf
+*.flf
+TestResults.xml
